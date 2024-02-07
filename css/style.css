@@ -10,9 +10,10 @@ body {
 }
 
 #box {
+  border-radius: 20px;
   display: flex;
-  border: black solid 1px;
   width: 50%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 #box1,
@@ -54,7 +55,6 @@ body {
 #box2 {
   display: flex;
   width: 50%;
-  background-color: whitesmoke;
   flex-direction: column;
   border-radius: 20px;
 }
@@ -128,10 +128,12 @@ body {
   width: 100%;
   padding: 10px 0;
   justify-content: center;
-  background-color: navy
-  ;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
 }
-
+#cot:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
 @media (max-width: 576px) {
   #box1,
   #box2 {
