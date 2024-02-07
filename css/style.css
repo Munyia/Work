@@ -13,7 +13,7 @@ body {
   border-radius: 20px;
   display: flex;
   width: 50%;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 #box1,
@@ -28,9 +28,9 @@ body {
 }
 #box1 {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  color: white;
+  color: rgb(219, 215, 215);
   align-items: center;
-  gap: 3vh;
+  gap: 4vh;
 }
 #pp {
   display: flex;
@@ -68,9 +68,22 @@ body {
   justify-content: space-around;
   padding-left: 30px;
 }
+#box22 h2{
+display: flex;
+padding-right: 60%;
+color: hsl(224, 44%, 21%);
+}
+#pp2, #pp4, #pp6, #pp8 {
+  display: flex;
+  text-justify: inherit;
+}
+
+.num{
+  display: flex;
+  color: rgb(129, 113, 113);
+}
 .sum1 {
   display: flex;
-  border: solid black 1px;
   height: 40px;
   width: 100%;
   justify-content: space-between;
