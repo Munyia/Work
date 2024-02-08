@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500,700;1,800&family=Roboto:wght@100;300;400&family=Work+Sans:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 18px;
+  font-family: 'Hanken Grotesk'; 
 }
 
 #box {
@@ -28,7 +31,7 @@ body {
 }
 #box1 {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  color: rgb(219, 215, 215);
+  color: hsl(221, 100%, 96%);
   align-items: center;
   gap: 4vh;
 }
@@ -71,7 +74,7 @@ body {
 #box22 h2{
 display: flex;
 padding-right: 60%;
-color: hsl(224, 44%, 21%);
+color: hsl(241, 100%, 89%,)
 }
 #pp2, #pp4, #pp6, #pp8 {
   display: flex;
@@ -80,7 +83,7 @@ color: hsl(224, 44%, 21%);
 
 .num{
   display: flex;
-  color: rgb(129, 113, 113);
+  color:  hsl(224, 30%, 27%)
 }
 .sum1 {
   display: flex;
